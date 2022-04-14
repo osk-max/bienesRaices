@@ -1,0 +1,4 @@
+.boton__amarillo {
+  @include boton($verde, inline-block)
+}
+

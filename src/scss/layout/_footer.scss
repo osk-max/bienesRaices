@@ -1,9 +1,9 @@
 .footer {
   background-color: $grisOscuro;
-  padding: $separacion / 2 0;
+  padding: calc($separacion / 2);
 
   .contenedor__footer {
-    padding-top: $separacion / 2;
+    padding-top: calc($separacion / 2);
   }
 
   .copyright {
@@ -11,3 +11,4 @@
     text-align: center;
   }
 }
+
