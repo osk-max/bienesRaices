@@ -1,4 +1,12 @@
 .boton__amarillo {
+  @include boton($amarillo, block)
+}
+
+.boton__verde {
   @include boton($verde, inline-block)
 }
 
+.alinear__derecha {
+  display: flex;
+  justify-content: flex-end;
+}
