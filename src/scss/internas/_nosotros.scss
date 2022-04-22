@@ -1,0 +1,20 @@
+@include tablet {
+  .contenido__nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+.contenido__nosotros {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  .texto__nosotros {
+    grid-row: 1 / 2;
+    margin-bottom: 0rem;
+  }
+  h3 {
+    font-weight: $bold;
+    margin-top: 0;
+  }  
+}
