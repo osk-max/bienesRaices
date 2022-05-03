@@ -12,6 +12,7 @@ const notify = require('gulp-notify');
 const cache = require('gulp-cache');
 const clean = require('gulp-clean');
 const webp = require('gulp-webp');
+const plumber = require('gulp-plumber');
 
 const paths = {
     scss: 'src/scss/**/*.scss',
