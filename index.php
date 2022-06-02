@@ -1,41 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bienes Raices</title>
-  <link rel="stylesheet" href="build/css/app.css">
-</head>
-
-<body>
-
-  <header class="header inicio">
-    <div class="contenedor contenido__header">
-      <div class="barra">
-        <a href="/">
-          <img src="build/img/logo.svg" alt="Logotipo de bienes raices">
-        </a>
-
-        <div class="mobile__menu">
-          <img src="build/img/barras.svg" alt="icono menu responsive">
-        </div><!-- .mobil__menu -->
-
-        <div class="derecha">
-          <img src="build/img/dark-mode.svg" alt="boton modo oscuro" class="dark__mode--boton">
-          <nav class="navegacion">
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
-          </nav><!-- .navegacion -->
-        </div><!-- derecha -->
-
-      </div><!-- .barra -->
-
-      <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
-    </div><!-- .contenedor .contenido__header-->
-  </header><!-- .header ,inicio -->
+<?php
+  $inicio = true;
+  include 'includes/templates/header.php'; 
+?>
 
   <main class="contenedor seccion">
     <h1>Más Sobre Nosotros</h1>
@@ -95,7 +61,7 @@
             </li>
           </ul><!-- .iconos__caracteristicas -->
 
-          <a class="boton__amarillo" href="anuncios.html">Ver Propiedad</a>
+          <a class="boton__amarillo" href="anuncios.php">Ver Propiedad</a>
         </div><!-- .contenido__anuncio -->
       </div><!-- .anuncio -->
 
@@ -128,7 +94,7 @@
             </li>
           </ul><!-- .iconos__caracteristicas -->
 
-          <a class="boton__amarillo" href="anuncios.html">Ver Propiedad</a>
+          <a class="boton__amarillo" href="anuncios.php">Ver Propiedad</a>
         </div><!-- .contenido__anuncio -->
       </div><!-- .anuncio -->
 
@@ -161,21 +127,21 @@
             </li>
           </ul><!-- .iconos__caracteristicas -->
 
-          <a class="boton__amarillo" href="anuncios.html">Ver Propiedad</a>
+          <a class="boton__amarillo" href="anuncios.php">Ver Propiedad</a>
         </div><!-- .contenido__anuncio -->
       </div><!-- .anuncio -->
 
     </div><!-- .contenedor__anuncios -->
 
     <div class="alinear__derecha">
-      <a class="boton__verde" href="anuncios.html">Ver Todas</a>
+      <a class="boton__verde" href="anuncios.php">Ver Todas</a>
     </div><!-- .alinear__derecha -->
   </section><!-- .seccion .contenedor -->
 
   <section class="imagen__contacto">
     <h2>Encuentra la casa de tus sueños</h2>
     <p>Llena el formulario de contacto y un asesor se pondra en contacto contigo a la brevedad</p>
-    <a class="boton__amarillo--inline" href="contacto.html">Contactános</a>
+    <a class="boton__amarillo--inline" href="contacto.php">Contactános</a>
   </section><!-- .imagen__contacto -->
 
   <div class="contenedor seccion seccion__inferior">
@@ -192,7 +158,7 @@
         </div><!-- .imagen -->
 
         <div class="texto__entrada">
-          <a href="entrada.html">
+          <a href="entrada.php">
             <h4>Terraza en el techo de tu casa</h4>
             <p class="informacion__meta">Escrito el: <span>20/10/2021 </span>por: <spam>Admin</spam></p>
           </a>
@@ -211,7 +177,7 @@
         </div><!-- .imagen -->
 
         <div class="texto__entrada">
-          <a href="entrada.html">
+          <a href="entrada.php">
             <h4>Guia para la decoracion de tu hogar</h4>
             <p class="informacion__meta">Escrito el: <span>20/10/2021 </span>por: <spam>Admin</spam></p>
           </a>
@@ -241,10 +207,10 @@
   <footer class="footer seccion">
     <div class="contenedor contenedor__footer">
       <nav class="navegacion">
-        <a href="nosotros.html">Nosotros</a>
-        <a href="anuncios.html">Anuncios</a>
-        <a href="blog.html">Blog</a>
-        <a href="contacto.html">Contacto</a>
+        <a href="nosotros.php">Nosotros</a>
+        <a href="anuncios.php">Anuncios</a>
+        <a href="blog.php">Blog</a>
+        <a href="contacto.php">Contacto</a>
       </nav><!-- .navegacion -->
     </div><!-- .contenedor .contenedor__footer-->
     <p class="copyright">Todos los derechos Reservados 2022 &copy;</p>
